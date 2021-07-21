@@ -1,0 +1,62 @@
+header {
+  background-color: purple;
+  height: 70px;
+  display: flex;
+  justify-content: space-right;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+button {
+  background-color: cyan;
+  height: 30px;
+  width: 100px;
+  border: none;
+  margin-right: 15px;
+}
+
+button.cyanfirst {
+  margin-left: 100px;
+}
+
+button.cyansecond {
+  width: 200px;
+}
+
+aside main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-grow: 5;
+  width: 400px;
+}
+
+main {
+  background-color: yellow;
+  height: 500px;
+  margin-top: 80px;
+  margin-right: 100px;
+  margin-left: 350px;
+  flex-grow: 4;
+}
+
+aside {
+  background-color: lime;
+  height: 500px;
+  width: 250px;
+  margin-left: 100px;
+  flex-grow: 1;
+  float: left;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 80px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 10px;
+}

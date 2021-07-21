@@ -1,0 +1,26 @@
+label {
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+input {
+  display: block;
+  border-top: 2px solid lime;
+  border-left: 2px solid lime;
+  border-color: lime;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background: lime;
+  border-color: lime;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+}

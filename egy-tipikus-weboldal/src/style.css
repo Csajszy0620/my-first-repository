@@ -1,0 +1,43 @@
+nav {
+  background-color: purple;
+  height: 50px;
+  display: flex;
+  justify-content: space-right;
+  align-items: center;
+}
+
+button {
+  background-color: cyan;
+  height: 30px;
+  width: 100px;
+  border: none;
+  margin: 0 5px;
+}
+
+button.cyansecond {
+  width: 200px;
+}
+
+main aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-grow: 5;
+  width: 400px;
+}
+
+main {
+  background-color: yellow;
+  height: 500px;
+  flex-grow: 4;
+}
+
+aside {
+  background-color: lime;
+  height: 500px;
+  flex-grow: 1;
+  float: right;
+}

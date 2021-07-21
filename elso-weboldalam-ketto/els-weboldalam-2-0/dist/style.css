@@ -1,0 +1,171 @@
+.all {
+  width: 950px;
+}
+
+#container {
+  width: 950px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+header.black {
+  border-color: solid black 6px;
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 30px;
+}
+
+main {
+  background-image: url(images/first-website-header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 390px;
+  height: 500px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 60px;
+}
+
+.my {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0;
+  position: relative;
+  top: 280px;
+  left: 80px;
+  font-family:'Abril Fatface', cursive;
+  color: #222 grey;
+}
+
+.as {
+  font-size: 83px;
+  margin-top: 0;
+  font-weight: 900;
+  position: relative;
+  top: 270px;
+  left: 80px;
+  font-family:'Abril Fatface', cursive;
+  color: #222 grey;
+  line-height: 80%;
+}
+
+.text {
+  position: absolute;
+  top: 100px;
+  left: 480px;
+  width: 460px;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  list-style-type: square;
+  line-height: 130%;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  font-size: 19px;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+div.main {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #222 grey;
+  font-size: 25px;
+}
+
+.first {
+  font-size: 21px;
+  line-height: 150%;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  font-size: 35px;
+  margin-bottom: 60px;
+}
+
+blockquote {
+  background-color: #696969;
+  color: palegoldenrod;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 80px;
+  width: 390px;
+  height: 430px;
+  margin-top: 420px;
+  margin-left: 0;
+}
+
+.third {
+  height: 730px;
+  margin-top: 280px;
+}
+
+.citate {
+  margin-top: 15px;
+  margin-left: 70px;
+  margin-right: 20px;
+  line-height: 100%;
+}
+
+.box {
+  color: palegoldenrod;
+  font-size: 200px;
+  width: 30px;
+  height: 40px;
+  position: relative;
+  bottom: 30px;
+  margin-left: 10px;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: dimgray;
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-top: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+}
+
+.two {
+  margin-top: 350px;
+}
+
+.three {
+  margin-top: 130px;
+}
+
+.four {
+  margin-top: 110px;
+}
